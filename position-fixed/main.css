@@ -1,0 +1,10 @@
+#dog {
+  /*formatting*/
+  width: 150px;
+  height: 150px;
+  background-color: Red;    //can be changed to RGBA
+  /*layout*/
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
