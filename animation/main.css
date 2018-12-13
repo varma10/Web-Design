@@ -1,0 +1,32 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: change-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  background-color: #00FF00;
+  border: 10px solid deepskyblue;
+  border-radius: 50%;
+  transition: background-color 1s ease-out 250ms;
+
+}
+
+div:hover {
+  background-color: blue;
+}
